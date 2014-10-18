@@ -17,8 +17,8 @@ apps=(
   mpeg-streamclip
   spectacle
   textmate
-  drobo-dashboard
   bittorrent-sync
+  drobo-dashboard
 )
 
 # Install apps to /Applications
@@ -26,6 +26,7 @@ apps=(
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+brew tap caskroom/fonts
 
 # fonts
 fonts=(
