@@ -18,6 +18,7 @@ apps=(
   spectacle
   textmate
   drobo-dashboard
+  bittorrent-sync
 )
 
 # Install apps to /Applications
