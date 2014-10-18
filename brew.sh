@@ -14,7 +14,6 @@ binaries=(
   ruby
   python
   hub
-  git
   bash
   bash-completion
   nodejs
