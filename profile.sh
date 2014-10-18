@@ -15,7 +15,7 @@ alias be="bundle exec"
 alias dump="git pull; bundle; be rake db:dump db:migrate"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-# PATH="/usr/local/bin:$PATH"
+PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 function deploy-a(){
     be cap production-A deploy -s branch=$1
 }
