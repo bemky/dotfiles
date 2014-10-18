@@ -13,9 +13,7 @@ apps=(
   cyberduck
   gitx-rowanj
   joinme
-  livereload
   mailbox
-  mocksmtp
   mpeg-streamclip
   spectacle
   textmate
