@@ -19,6 +19,7 @@ apps=(
   mpeg-streamclip
   spectacle
   textmate
+  drobo-dashboard
 )
 
 # Install apps to /Applications
