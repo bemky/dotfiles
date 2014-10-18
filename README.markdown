@@ -3,8 +3,6 @@ bemkys's .files
 
 ### Installation
 
-      export HOST=#{HOST}
-
       # install Xcode
 
       ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
@@ -12,7 +10,12 @@ bemkys's .files
       brew install git
 
       ssh-keygen -t rsa -C "bemky@$HOST"
-      # Copy to github
+      # start the ssh-agent in the background
+      eval "$(ssh-agent -s)"
+      # Agent pid 59566
+      ssh-add ~/.ssh/id_rsa
+      pbcopy < ~/.ssh/id_rsa.pub
+      # paste in github
 
       git clone git@github.com:bemky/dotfiles.git ~/.dotfiles
       cd ~/.dotfiles
