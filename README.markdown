@@ -24,8 +24,14 @@ bemkys's .files
       cp profile.sh ~/.profile
       cp gitconfig.sh ~/.gitconfig
       
+      # Clone TextMate Bundles
+      cd ~/Library/Application\ Support/Avian/"
+      git clone git@github.com:malomalo/tmbundles.git Bundles
+      
       # install Adobe CS
       # after Mackup dir sync, run `mackup restore`
+      
+      
 
 ### Credits
 

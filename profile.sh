@@ -1,6 +1,7 @@
 alias profile="mate ~/.profile"
 alias spire="cd ~/code/spire"
 alias mls="cd ~/code/mls"
+alias dotfiles="cd ~/.dotfiles"
 alias lt="localtunnel"
 alias bundles="cd ~/Library/Application\ Support/Avian/Bundles/"
 alias php="sudo apachectl graceful"
