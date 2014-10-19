@@ -181,8 +181,8 @@ echo "Wipe all (default) app icons from the Dock"
 defaults write com.apple.dock persistent-apps -array
 
 echo ""
-echo "Setting the icon size of Dock items to 36 pixels for optimal size/screen-realestate"
-defaults write com.apple.dock tilesize -int 36
+echo "Setting the icon size of Dock items to 64 pixels for optimal size/screen-realestate"
+defaults write com.apple.dock tilesize -int 64
 
 echo ""
 echo "Speeding up Mission Control animations and grouping windows by application"
