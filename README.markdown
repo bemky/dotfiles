@@ -29,6 +29,7 @@ bemkys's .files
       git clone git@github.com:malomalo/tmbundles.git Avian/Bundles
       
       # install Adobe CS
+	  # start Dropbox with mackup and sync directories only
       # after Mackup dir sync, run `mackup restore`
       
       
