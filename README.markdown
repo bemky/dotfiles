@@ -4,6 +4,7 @@ bemkys's .files
 ### Installation
 
       # install Xcode
+	  # install java runtime environment
 
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       brew doctor
