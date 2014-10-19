@@ -1,6 +1,7 @@
 brew install caskroom/cask/brew-cask
 
 apps=(
+  java
   dropbox
   google-chrome
   transmission
@@ -18,6 +19,7 @@ apps=(
   spectacle
   textmate
   bittorrent-sync
+  xquartz
   drobo-dashboard
 )
 
