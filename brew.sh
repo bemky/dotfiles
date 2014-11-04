@@ -23,6 +23,7 @@ binaries=(
   poppler
   ghostscript
   redis
+  yajl
 )
 
 echo "installing binaries..."
