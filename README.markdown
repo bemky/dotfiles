@@ -20,8 +20,8 @@ bemkys's .files
       git clone git@github.com:bemky/dotfiles.git ~/.dotfiles
       cd ~/.dotfiles
       
-      sh brew.sh
       sh apps.sh
+      sh brew.sh
       sh defaults.sh
       
       # Clone TextMate Bundles
