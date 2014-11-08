@@ -24,6 +24,7 @@ binaries=(
   ghostscript
   redis
   yajl
+  mackup
 )
 
 echo "installing binaries..."
@@ -40,9 +41,6 @@ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 
 echo "installing bundler..."
 gem install bundler
-
-echo "installing mackup"
-pip install mackup
 
 
 
