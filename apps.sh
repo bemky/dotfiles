@@ -53,6 +53,7 @@ fonts=(
   font-m-plus
   font-marvel
   font-maven-pro
+  font-montserrat
   font-nothing-you-could-do
   font-nova-cut
   font-nova-oval
