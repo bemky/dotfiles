@@ -8,6 +8,7 @@ apps=(
   firefox
   spotify
   vlc
+  iterm2
   skype
   onepassword
   hipchat
