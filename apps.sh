@@ -36,7 +36,10 @@ fonts=(
   font-m-plus
   font-clear-sans
   font-bebas-neue
+  font-alex-brush
+  font-allura
   font-arvo
+  font-amatic-sc
   font-bilbo
   font-cabin
   font-coda
@@ -45,6 +48,7 @@ fonts=(
   font-freehand
   font-geo
   font-geo-sans-light
+  font-great-vibes
   font-just-another-hand
   font-lato
   font-league-gothic
