@@ -48,6 +48,7 @@ fonts=(
   font-just-another-hand
   font-lato
   font-league-gothic
+  font-league-spartan
   font-lemon
   font-lobster
   font-lobster-two
