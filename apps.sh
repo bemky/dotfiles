@@ -88,3 +88,4 @@ fonts=(
 # install fonts
 echo "installing fonts..."
 brew cask install ${fonts[@]}
+echo "install ostrich-sans manually: https://github.com/theleagueof/ostrich-sans"
