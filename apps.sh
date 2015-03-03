@@ -13,6 +13,7 @@ apps=(
   onepassword
   hipchat
   cyberduck
+  gpgtools
   gitx-rowanj
   joinme
   mailbox
