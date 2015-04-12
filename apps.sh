@@ -10,7 +10,7 @@ apps=(
   vlc
   iterm2
   skype
-  onepassword
+  1password
   hipchat
   cyberduck
   gpgtools
