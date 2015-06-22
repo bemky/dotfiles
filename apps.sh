@@ -8,13 +8,12 @@ apps=(
   firefox
   spotify
   vlc
-  iterm2
   skype
   1password
   hipchat
   cyberduck
   gpgtools
-  gitx-rowanj
+  rowanj-gitx
   joinme
   mailbox
   mpeg-streamclip
