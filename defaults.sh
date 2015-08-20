@@ -102,6 +102,10 @@ echo ""
 echo "Disable shadow in screenshots"
 defaults write com.apple.screencapture disable-shadow -bool true
 
+echo ""
+echo "Default Screenshot Location"
+defaults write com.apple.screencapture location ~/Screenshots/
+
 
 ###############################################################################
 # Finder
