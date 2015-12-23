@@ -15,7 +15,7 @@ apps=(
   gpgtools
   rowanj-gitx
   joinme
-  mailbox
+  nylas-n1
   mpeg-streamclip
   spectacle
   textmate
