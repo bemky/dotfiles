@@ -25,6 +25,7 @@ binaries=(
   redis
   yajl
   mackup
+  heroku-toolbelt
 )
 
 echo "installing binaries..."
