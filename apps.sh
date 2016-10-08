@@ -19,7 +19,7 @@ apps=(
   mpeg-streamclip
   spectacle
   textmate
-  bittorrent-sync
+  resilio-sync
   xquartz
   drobo-dashboard
 )
