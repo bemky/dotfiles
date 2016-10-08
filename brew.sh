@@ -23,6 +23,7 @@ binaries=(
   poppler
   ghostscript
   redis
+  memcached
   yajl
   mackup
   heroku-toolbelt
