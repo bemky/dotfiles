@@ -1,5 +1,9 @@
 bemkys's .files
 =================
+### Wiping
+    before wiping current HD, deauthorize:
+    Adobe CS
+
 
 ### Installation
 

@@ -44,5 +44,4 @@ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 echo "installing bundler..."
 gem install bundler
 
-
-
+gem install mailcatcher
