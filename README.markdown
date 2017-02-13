@@ -25,8 +25,14 @@ bemkys's .files
       sh defaults.sh
       
       # Clone TextMate Bundles
-      cd ~/Library/Application\ Support/"
-      git clone git@github.com:malomalo/tmbundles.git Avian/Bundles
+      cd ~/Library/Application\ Support/TextMate/Bundles/
+      git clone git@github.com:bemky/html.tmbundle.git HTML.tmbundle
+      git clone git@github.com:bemky/Bourbon.tmbundle.git
+      git clone git@github.com:bemky/Neat.tmbundle.git
+      git clone git@github.com:bemky/javascript.tmbundle.git JavaScript.tmbundle
+      git clone git@github.com:bemky/ruby-on-rails-tmbundle.git Ruby\ on\ Rails.tmbundle
+      git clone git@github.com:bemky/ruby.tmbundle.git Ruby.tmbundle
+      git clone git@github.com:bemky/SCSS.tmbundle.git
       
       # install Adobe CS
 	  # start Dropbox with mackup and sync directories only
