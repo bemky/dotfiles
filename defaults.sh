@@ -104,7 +104,7 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 echo ""
 echo "Default Screenshot Location"
-defaults write com.apple.screencapture location ~/Screenshots/
+defaults write com.apple.screencapture location ~/Dropbox\ \(42Floors\)/Screenshots
 
 
 ###############################################################################
