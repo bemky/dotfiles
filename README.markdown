@@ -40,7 +40,11 @@ bemkys's .files
       
       # install Adobe CS
 	  # start Dropbox with mackup and sync directories only
-      # after Mackup dir sync, run `mackup restore`
+      # after Mackup dir sync
+      mackup restore
+      defaults write com.apple.screencapture location "'~/Dropbox (42Floors)/Screenshots/'"
+      killall SystemUIServer
+      
       
       
 
