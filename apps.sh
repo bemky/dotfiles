@@ -21,7 +21,6 @@ apps=(
   textmate
   resilio-sync
   xquartz
-  drobo-dashboard
   battle-net
   joinme
   rightfont
@@ -31,3 +30,6 @@ apps=(
 # Default is: /Users/$user/Applications
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
+
+brew tap caskroom/drivers
+brew cask install drobo-dashboard
