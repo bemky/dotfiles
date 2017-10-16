@@ -1,4 +1,4 @@
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 apps=(
   java
@@ -15,14 +15,13 @@ apps=(
   gpgtools
   rowanj-gitx
   joinme
-  nylas-n1
+  mailspring
   mpeg-streamclip
   spectacle
   textmate
   resilio-sync
   xquartz
   drobo-dashboard
-  nylas-mail
   battle-net
   joinme
   rightfont
