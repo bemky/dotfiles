@@ -12,7 +12,6 @@ apps=(
   1password
   hipchat
   cyberduck
-  gpgtools
   rowanj-gitx
   joinme
   mailspring
