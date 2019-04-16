@@ -21,6 +21,7 @@ apps=(
   battle-net
   discord
   rightfont
+  adobe-creative-cloud
 )
 
 # Install apps to /Applications
