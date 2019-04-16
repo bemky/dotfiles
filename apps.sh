@@ -1,5 +1,3 @@
-brew tap caskroom/cask
-
 apps=(
   java
   dropbox
@@ -10,7 +8,7 @@ apps=(
   vlc
   skype
   1password
-  hipchat
+  slack
   cyberduck
   rowanj-gitx
   joinme
@@ -21,7 +19,7 @@ apps=(
   resilio-sync
   xquartz
   battle-net
-  joinme
+  discord
   rightfont
 )
 
