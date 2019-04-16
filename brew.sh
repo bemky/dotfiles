@@ -26,7 +26,7 @@ binaries=(
   memcached
   yajl
   mackup
-  heroku-toolbelt
+  ncdu
 )
 
 echo "installing binaries..."
@@ -34,14 +34,6 @@ brew install ${binaries[@]}
 
 brew cleanup
 
-echo "initialize Postgres"
-initdb /usr/local/var/postgres -E utf8
-
-echo "autostart Postgres"
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
-
 echo "installing bundler..."
 gem install bundler
-
 gem install mailcatcher
