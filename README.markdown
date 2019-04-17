@@ -48,7 +48,8 @@ bemkys's .files
       defaults write com.apple.screencapture location "'~/Dropbox (42Floors)/Screenshots/'"
       killall SystemUIServer
       
-      
+      # Git Configs
+      git config --global alias.up 'pull --rebase --autostash'
       
 
 ### Credits
