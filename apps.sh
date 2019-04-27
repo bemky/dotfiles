@@ -1,5 +1,4 @@
 apps=(
-  java
   dropbox
   google-chrome
   transmission
