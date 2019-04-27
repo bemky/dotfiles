@@ -31,9 +31,3 @@ binaries=(
 
 echo "installing binaries..."
 brew install ${binaries[@]}
-
-brew cleanup
-
-echo "installing bundler..."
-gem install bundler
-gem install mailcatcher
