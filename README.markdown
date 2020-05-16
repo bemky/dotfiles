@@ -6,6 +6,7 @@ bemkys's .files
     RightFont
     
     Backup ~/code
+    mackup backup
 
 
 ### Installation
