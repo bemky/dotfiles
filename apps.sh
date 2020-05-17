@@ -1,26 +1,22 @@
 apps=(
   dropbox
   google-chrome
-  transmission
   firefox
   spotify
   vlc
-  skype
+  mpeg-streamclip
   1password
   slack
-  cyberduck
   rowanj-gitx
-  joinme
   mailspring
-  mpeg-streamclip
   spectacle
   textmate
-  resilio-sync
-  xquartz
   battle-net
   discord
   rightfont
   adobe-creative-cloud
+  tuple
+  kap
 )
 
 # Install apps to /Applications
