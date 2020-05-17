@@ -24,5 +24,5 @@ apps=(
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
-brew tap caskroom/drivers
+brew tap homebrew/cask-drivers
 brew cask install drobo-dashboard
