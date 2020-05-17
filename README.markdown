@@ -7,6 +7,16 @@ bemkys's .files
     
     Backup ~/code
     mackup backup
+    cd ~/Library/Application\ Support/TextMate/Bundles/HTML.tmbundle
+    git push
+    cd ~/Library/Application\ Support/TextMate/Bundles/JavaScript.tmbundle
+    git push
+    cd ~/Library/Application\ Support/TextMate/Bundles/Ruby\ on\ Rails.tmbundle
+    git push
+    cd ~/Library/Application\ Support/TextMate/Bundles/Ruby.tmbundle
+    git push
+    cd ~/Library/Application\ Support/TextMate/Bundles/SCSS.tmbundle
+    git push
 
 
 ### Installation
@@ -28,15 +38,13 @@ bemkys's .files
       git clone git@github.com:bemky/dotfiles.git ~/.dotfiles
       cd ~/.dotfiles
       
+      sh defaults.sh
       sh apps.sh
       sh brew.sh
-      sh defaults.sh
       
       # Clone TextMate Bundles
       cd ~/Library/Application\ Support/TextMate/Bundles/
       git clone git@github.com:bemky/html.tmbundle.git HTML.tmbundle
-      git clone git@github.com:bemky/Bourbon.tmbundle.git
-      git clone git@github.com:bemky/Neat.tmbundle.git
       git clone git@github.com:bemky/javascript.tmbundle.git JavaScript.tmbundle
       git clone git@github.com:bemky/ruby-on-rails-tmbundle.git Ruby\ on\ Rails.tmbundle
       git clone git@github.com:bemky/ruby.tmbundle.git Ruby.tmbundle
