@@ -17,6 +17,7 @@ apps=(
   adobe-creative-cloud
   tuple
   kap
+  kaleidoscope
 )
 
 # Install apps to /Applications
