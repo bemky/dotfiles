@@ -29,7 +29,6 @@ bemkys's .files
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew doctor
   brew install git
-  brew tap homebrew/cask-drivers
 ```
 - [ ] Add SSH Key to Github
 ```shell
