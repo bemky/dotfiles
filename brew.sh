@@ -17,7 +17,9 @@ binaries=(
   bash
   bash-completion
   nodejs
-  postgres
+  postgresql@14
+  libvips
+  mupdf-tools
   postgis
   imagemagick
   poppler
