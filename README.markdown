@@ -29,6 +29,7 @@ bemkys's .files
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew doctor
   brew install git
+  brew tap homebrew/cask-drivers
 ```
 - [ ] Add SSH Key to Github
 ```shell
@@ -55,6 +56,8 @@ bemkys's .files
   git clone git@github.com:bemky/ruby.tmbundle.git Ruby.tmbundle
   git clone git@github.com:bemky/SCSS.tmbundle.git
 ```
+- [ ] Download and install [Drobo Dashboard](https://www.drobo.com/docs/start-5d/)
+- [ ] Download Dropbox folders from Drobo
 - [ ] Install Adobe CS
 - [ ] Start Dropbox sync directories
 - [ ] `mackup restore` // Once dropbox is backedup
