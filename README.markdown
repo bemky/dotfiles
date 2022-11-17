@@ -21,6 +21,7 @@ bemkys's .files
 
 
 ### Installation
+- [ ] `sudo hostname -s NewComputerName`
 - [ ] Install Xcode
 - [ ] Install Brew
 ```shell
