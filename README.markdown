@@ -59,7 +59,17 @@ bemkys's .files
 - [ ] Download Dropbox folders from Drobo
 - [ ] Install Adobe CS
 - [ ] Start Dropbox sync directories
-- [ ] `mackup restore` // Once dropbox is backedup
+- [ ] Mackup Restore (once dropbox sync is complete)
+```shell
+# ~/.mackup.cfg
+[applications_to_ignore]
+textmate
+[storage]
+directory = /Users/benehmke/Dropbox (42Floors)/Syncing Library/Mackup
+```
+```shell
+mackup restore
+```
 - [ ] Setup Screenshot Directory
 ```shell
   defaults write com.apple.screencapture location "'~/Dropbox (42Floors)/Screenshots/'"
