@@ -3,8 +3,9 @@ bemkys's .files
 ### Wiping
 - [ ] Deauthorize Adobe CS
 - [ ] Deauthorize RightFont
-- [ ] Backup `~/code`
 - [ ] `mackup backup`
+- [ ] Backup `~/code`
+- [ ] Backup `~/Dropbox` (optional for speed of reinstall)
 - [ ] Push changes to tmbundles
 ```shell
   cd ~/Library/Application\ Support/TextMate/Bundles/HTML.tmbundle
