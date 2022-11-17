@@ -68,6 +68,7 @@ bemkys's .files
 - [ ] `gem install bundler`
 - [ ] `gem install mailcatcher`
 - [ ] `git config --global alias.up 'pull --rebase --autostash'`
+- [ ] Download and install [1Password](https://1password.com/downloads/mac/)
 
 ### Credits
 
