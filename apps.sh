@@ -4,7 +4,6 @@ apps=(
   firefox
   spotify
   vlc
-  1password
   slack
   rowanj-gitx
   spectacle
