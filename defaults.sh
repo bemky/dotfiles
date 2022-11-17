@@ -88,6 +88,11 @@ echo "Use scroll gesture with the Ctrl (^) modifier key to zoom"
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
 defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 
+echo ""
+echo "Increase Keyboard Key Repeat Rate"
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
+
 
 ###############################################################################
 # Screen
