@@ -16,6 +16,7 @@ apps=(
   kap
   kaleidoscope
   mimestream
+  homebrew/cask/dash
 )
 
 # Install apps to /Applications
