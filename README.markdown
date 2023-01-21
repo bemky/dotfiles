@@ -79,6 +79,10 @@ mackup restore
 - [ ] `gem install mailcatcher`
 - [ ] `git config --global alias.up 'pull --rebase --autostash'`
 - [ ] Download and install [1Password](https://1password.com/downloads/mac/)
+- [ ] Enable SMB File Sharing for Printer Scans
+```
+System Preferences > General > Sharing > File Sharing > Options
+```
 
 ### Credits
 
