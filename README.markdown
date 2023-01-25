@@ -26,7 +26,7 @@ bemkys's .files
 - [ ] Install Xcode
 - [ ] Install Brew
 ```shell
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew doctor
   brew install git
 ```
