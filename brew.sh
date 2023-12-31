@@ -9,19 +9,13 @@ fi
 brew update
 
 binaries=(
-  coreutils
-  findutils
   ruby
   python
-  hub
-  bash
-  bash-completion
   nodejs
-  postgresql@14
+  postgresql
   libvips
   mupdf-tools
   postgis
-  imagemagick
   poppler
   ghostscript
   redis
