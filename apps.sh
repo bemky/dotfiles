@@ -10,13 +10,10 @@ apps=(
   textmate
   battle-net
   discord
-  rightfont
   adobe-creative-cloud
   tuple
   kap
   kaleidoscope
-  mimestream
-  homebrew/cask/dash
 )
 
 # Install apps to /Applications
