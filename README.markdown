@@ -84,6 +84,19 @@ mackup restore
 System Preferences > General > Sharing > File Sharing > Options
 ```
 
+### Work Config
+Setup work ssh keys
+```shell
+ssh-keygen -t rsa -f ~/.ssh/<name> -C <work-email-address>
+```
+
+Add to work github
+```shell
+pbcopy < ~/.ssh/jll.pub
+```
+
+Setup
+
 ### Credits
 
 The Install script came from [Ryan Bates](http://github.com/ryanb/dotfiles)
