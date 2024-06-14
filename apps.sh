@@ -10,7 +10,6 @@ apps=(
   textmate
   battle-net
   discord
-  adobe-creative-cloud
   tuple
   kap
   kaleidoscope
