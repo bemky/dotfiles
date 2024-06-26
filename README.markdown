@@ -69,6 +69,7 @@ directory = /Users/benehmke/Dropbox (42Floors)/Syncing Library/Mackup
 ```
 ```shell
 mackup restore
+mackup uninstall # For MacOS 14+ (broke symlinks in ~/Library, https://github.com/lra/mackup/issues/1924)
 ```
 - [ ] Setup Screenshot Directory
 ```shell
