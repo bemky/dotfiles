@@ -55,8 +55,6 @@ bemkys's .files
   git clone git@github.com:bemky/ruby.tmbundle.git Ruby.tmbundle
   git clone git@github.com:bemky/SCSS.tmbundle.git
 ```
-- [ ] Download and install [Drobo Dashboard](https://www.drobo.com/docs/start-5d/)
-- [ ] Download Dropbox folders from Drobo
 - [ ] Install Adobe CS
 - [ ] Start Dropbox sync directories
 - [ ] Mackup Restore (once dropbox sync is complete)
