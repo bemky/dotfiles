@@ -1,11 +1,8 @@
 bemkys's .files
 =================
 ### Wiping
-- [ ] Deauthorize Adobe CS
-- [ ] Deauthorize RightFont
-- [ ] `mackup backup`
+- [ ] `mackup backup --force && mackup uninstall --force`
 - [ ] Backup `~/code`
-- [ ] Backup `~/Dropbox` (optional for speed of reinstall)
 - [ ] Push changes to tmbundles
 ```shell
   cd ~/Library/Application\ Support/TextMate/Bundles/HTML.tmbundle
@@ -23,7 +20,6 @@ bemkys's .files
 
 ### Installation
 - [ ] `sudo hostname -s NewComputerName`
-- [ ] Install Xcode
 - [ ] Install Brew
 ```shell
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -55,30 +51,22 @@ bemkys's .files
   git clone git@github.com:bemky/ruby.tmbundle.git Ruby.tmbundle
   git clone git@github.com:bemky/SCSS.tmbundle.git
 ```
-- [ ] Install Adobe CS
-- [ ] Start Dropbox sync directories
-- [ ] Mackup Restore (once dropbox sync is complete)
+- [ ] Mackup Restore
 ```shell
 # ~/.mackup.cfg
-[applications_to_ignore]
-textmate
 [storage]
-directory = /Users/benehmke/Dropbox (42Floors)/Syncing Library/Mackup
+directory = /Users/benehmke/Library/Mobile Documents/com~apple~CloudDocs/Syncing/Mackup
 ```
 ```shell
-mackup restore
-mackup uninstall # For MacOS 14+ (broke symlinks in ~/Library, https://github.com/lra/mackup/issues/1924)
+$ mackup restore --force && mackup uninstall --force # For MacOS 14+ (broke symlinks in ~/Library, https://github.com/lra/mackup/issues/1924)
 ```
 - [ ] Setup Screenshot Directory
 ```shell
-  defaults write com.apple.screencapture location "'~/Dropbox (42Floors)/Screenshots/'"
+  defaults write com.apple.screencapture location "/Users/benehmke/Library/Mobile Documents/com~apple~CloudDocs/Screenshots"
   killall SystemUIServer
 ```
 - [ ] `gem install bundler`
-- [ ] `gem install mailcatcher`
 - [ ] `git config --global alias.up 'pull --rebase --autostash'`
-- [ ] Download and install [1Password](https://1password.com/downloads/mac/)
-- [ ] Enable SMB File Sharing for Printer Scans
 ```
 System Preferences > General > Sharing > File Sharing > Options
 ```
