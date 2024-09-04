@@ -55,6 +55,7 @@ bemkys's .files
 ```shell
 # ~/.mackup.cfg
 [storage]
+engine = icloud
 directory = /Users/benehmke/Library/Mobile Documents/com~apple~CloudDocs/Syncing/Mackup
 ```
 ```shell
