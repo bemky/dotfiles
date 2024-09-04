@@ -68,9 +68,6 @@ $ mackup restore --force && mackup uninstall --force # For MacOS 14+ (broke syml
 ```
 - [ ] `gem install bundler`
 - [ ] `git config --global alias.up 'pull --rebase --autostash'`
-```
-System Preferences > General > Sharing > File Sharing > Options
-```
 
 ### Work Config
 Setup work ssh keys
