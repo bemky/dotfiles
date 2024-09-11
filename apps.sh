@@ -5,10 +5,9 @@ apps=(
   spotify
   vlc
   slack
-  rowanj-gitx
-  spectacle
+  gitx
+  rectangle
   textmate
-  battle-net
   discord
   tuple
   kap
