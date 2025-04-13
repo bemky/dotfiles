@@ -4,14 +4,18 @@ apps=(
   firefox
   spotify
   vlc
-  slack
-  gitx
+  fork
   rectangle
   textmate
   discord
   tuple
   kap
-  kaleidoscope
+  kaleidoscope@3
+  1password
+  dash@6
+  microsoft-teams
+  microsoft-outlook
+  slack
 )
 
 # Install apps to /Applications
