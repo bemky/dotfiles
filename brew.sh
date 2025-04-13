@@ -21,7 +21,6 @@ binaries=(
   redis
   memcached
   yajl
-  mackup
   ncdu
 )
 
